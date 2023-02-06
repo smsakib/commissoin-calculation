@@ -1,0 +1,23 @@
+25% if tution >= 20000
+20% if tuition <20000 & >=10000
+15% if tuition <10000 & > =7000
+
+<?php
+$tution = 45000;
+if
+($tution>=20000)
+{echo "25% commission";
+}
+else if
+($tution<20000 & $tution>=10000)
+{
+echo "20% commission";
+}
+else if
+($tution<10000 & $tution>=7000)
+{
+echo "15% commission";
+}
+else
+echo "no commission";
+?>
